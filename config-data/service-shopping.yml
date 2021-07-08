@@ -1,4 +1,4 @@
-#LINE for build DATA.SQL to start app
+##LINE for build DATA.SQL to start app
 #spring.jpa.defer-datasource-initialization=true
 
 #Application Configuration
