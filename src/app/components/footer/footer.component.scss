@@ -1,0 +1,35 @@
+  .footerMaster {
+    position: fixed;
+    left: 0;
+    bottom: 0;  
+    width: 100%;    
+    color: white;
+    text-align: center;    
+  }
+.subFooter{    
+    position: fixed;
+    left: 0;
+    bottom: 0;      
+    margin: auto;
+    align-content: center;    
+    width: 100%;
+}
+.subFooter::before {
+    content: '';
+    background: #01387B;
+    opacity: 0.2;
+    width: 200%;
+    position: absolute;
+    left: 50%; 
+    top: 60%;
+    transform: translateX(-50%);
+    height: 250%;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
