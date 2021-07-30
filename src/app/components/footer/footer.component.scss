@@ -2,34 +2,80 @@
     position: fixed;
     left: 0;
     bottom: 0;  
+    
     width: 100%;    
     color: white;
     text-align: center;    
   }
-.subFooter{    
-    position: fixed;
-    left: 0;
-    bottom: 0;      
-    margin: auto;
-    align-content: center;    
-    width: 100%;
-}
-.subFooter::before {
-    content: '';
-    background: #01387B;
-    opacity: 0.2;
-    width: 200%;
-    position: absolute;
-    left: 50%; 
-    top: 60%;
-    transform: translateX(-50%);
-    height: 250%;
-    border-radius: 50%;
-    z-index: -1;
-  }
+
   .centrado{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.title{  
+ // font-weight: 700;
+ font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+.pago{  
+  line-height: 13px;
+  letter-spacing: 0.32px;
+  font-style: normal;
+  font-size: smaller;
+  margin-right: 20px;
+  text-align: left;
+}
+
+code { 
+  width: 50px;  
+  color: white; 
+  display: inline-block; 
+  vertical-align: middle; }
+
+  .dividerA{ 
+width: 70vw;
+height: 1px;
+left: 250px;
+top: 6668px;
+background-color: #0c4c8c9d;
+  }
+  .dividerB{ 
+ width: 70vw;
+height: 1px;
+left: 250px;
+top: 6669px;
+background-color:#489aeb6b;
+  }
+
+
+.textContacto{
+  line-height: 20px;
+  font-weight: 550;
+  letter-spacing: 0.3px;  
+  font-size: 12px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.contentContact{ 
+font-weight: 300;
+font-size: 11px;
+line-height: 18px;
+letter-spacing: 0.3px;
+color: #FFFFFF;
+}
+button:hover {
+  background-color: #0c4c8c9d;
+}
+button{
+  border-radius: 15px;
+}
+
+.botones{  
+  line-height: 13px;
+  letter-spacing: 0.32px; 
 }

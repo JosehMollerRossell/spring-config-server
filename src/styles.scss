@@ -37,3 +37,22 @@ $RedSaludGlobal-theme: mat-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+  font-family: 'Metropolis-Regular';
+  src: url('/assets/fonts/METROPOLIS/Metropolis-Regular.otf');
+  //font-weight: 400;     
+}
+
+.metropolisRegular{
+  font-family: "Metropolis-Regular" !important;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('/assets/fonts/ROBOTO/Roboto-Regular.ttf');
+  //font-weight: 400;
+}
+
+.robotoRegular{
+  font-family: "Roboto-Regular" !important;
+}
