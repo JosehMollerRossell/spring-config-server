@@ -1,0 +1,123 @@
+.background{
+height: 100%;
+  background: url(/assets/icons/header/slide_1/fondoslide12x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  box-sizing: border-box;
+}
+button{
+  border-radius: 23px;
+  height: 46px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.buttonText{
+  font-size: 17px;
+  color:  #01387B;
+  line-height: 17px;
+  letter-spacing: 0.034px;
+  font-weight: bold;
+}
+
+//hamburguer
+h1 {
+  color: #DB5B33;
+  font-weight: 300;
+  text-align: center;
+}
+
+nav-icon {
+  margin: 0 auto;
+}
+
+//imagen 
+.eye{
+  position:absolute;
+  height:auto;
+  width:30%;
+ // top: 40px;
+ //left : 40px;
+  //z-index: 1;
+}
+
+.heaven
+{
+  
+  height:auto;
+  width:30%;
+  //z-index: -1;
+}
+
+.barra{
+  width: 7px;
+  height: 53px;
+  background-color: #008467;
+  border-radius: 3.5px;
+ // position: fixed;
+  
+}
+
+.subHeader{
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.0071429px;
+  color: #01387B;
+  width: 305px;
+}
+
+.subHeader2{
+  font-size: 35px;
+  line-height: 53px;
+  letter-spacing: 0.107143px;
+  color: #008467;
+  width: 343px;
+  font-style: italic;
+}
+.subHeader3{
+  font-size: 35px;
+  line-height: 22px;
+  letter-spacing: 0.107143px;
+  color: #01387B;
+  width: 319px;
+  font-style: italic;
+}
+
+.fontButtton{
+  letter-spacing: 1.8px;
+  font-size: 15px;
+}
+
+
+  .botones{  
+    line-height: 13px;
+    letter-spacing: 0.32px; 
+  }
+
+  //carrousel button
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  margin-top: 180px;
+  height: 10px;
+  width: 10px;
+  max-width: 5px;
+  background-size: 20%, 100%;
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: url(/assets/icons/header/flechasliderBlanco.png);
+  height: 5px;
+
+}
+
+.carousel-control-prev-icon:after {
+  content: url(/assets/icons/header/flechaAzulx.png);
+  
+  height: 5px;
+}
+

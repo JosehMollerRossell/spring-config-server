@@ -43,10 +43,29 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   //font-weight: 400;     
 }
 
+.metropolisBold{
+  font-family: "Metropolis-Bold" !important;
+}
+
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url('/assets/fonts/METROPOLIS/Metropolis-Bold.otf');
+  //font-weight: 400;     
+}
+
+.metropolisExtraBold{
+  font-family: "Metropolis-ExtraBold" !important;
+}
+
+@font-face {
+  font-family: 'Metropolis-ExtraBold';
+  src: url('/assets/fonts/METROPOLIS/Metropolis-ExtraBold.otf');
+  //font-weight: 400;     
+}
+
 .metropolisRegular{
   font-family: "Metropolis-Regular" !important;
 }
-
 @font-face {
   font-family: 'Roboto-Regular';
   src: url('/assets/fonts/ROBOTO/Roboto-Regular.ttf');
@@ -55,4 +74,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .robotoRegular{
   font-family: "Roboto-Regular" !important;
+}
+
+.buttonWarning{
+  background-color: #F6991E;
+  color: rgb(255, 255, 255);
+  height: 57px;
+  border-radius: 28,5px;
 }

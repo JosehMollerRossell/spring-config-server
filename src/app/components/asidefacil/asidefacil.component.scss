@@ -1,0 +1,126 @@
+.background{
+  width: 70%;
+position: relative;
+ // height: 300px;
+  margin: auto;
+    background: url(/assets/icons/asidefacil/fondoasidefacil2x.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    box-sizing: border-box;
+  }
+//card
+button{
+  border-radius: 23px;
+  height: 46px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.buttonText{
+  font-size: 17px;
+  color:  #01387B;
+  line-height: 17px;
+  letter-spacing: 0.034px;
+  font-weight: bold;
+}
+
+//hamburguer
+h1 {
+  color: #DB5B33;
+  font-weight: 300;
+  text-align: center;
+}
+
+nav-icon {
+  margin: 0 auto;
+}
+
+//imagen 
+.eye{
+  //position:absolute;
+ // height:auto;
+  width:100%;
+  top: 0px;
+ // bottom: 40;
+ //left : 40px;
+  z-index: 2;
+}
+
+.heaven
+{
+  
+  height:auto;
+  width:30%;
+  //z-index: -1;
+}
+
+.barra{
+  width: 7px;
+  height: 53px;
+  background-color: #008467;
+  border-radius: 3.5px;
+ // position: fixed;
+  
+}
+
+.subHeader{
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.0071429px;
+  color: #01387B;
+  width: 305px;
+}
+
+.subHeader2{
+  font-size: 35px;
+  line-height: 53px;
+  letter-spacing: 0.107143px;
+  color: #008467;
+  width: 343px;
+  font-style: italic;
+}
+.subHeader3{
+  font-size: 35px;
+  line-height: 22px;
+  letter-spacing: 0.107143px;
+  color: #01387B;
+  width: 319px;
+  font-style: italic;
+}
+
+.fontButtton{
+  letter-spacing: 1.8px;
+  font-size: 15px;
+}
+
+
+  .botones{  
+    line-height: 13px;
+    letter-spacing: 0.32px; 
+  }
+
+  .grid-container{
+    display: grid;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+  }
+  
+  img{
+    width: 100%;
+  }
+  
+  img:nth-child(1){
+    grid-area: 1 / 1;
+  }
+  
+  img:nth-child(2){
+    width: 150px;
+    height:150px;
+    align-self: center;
+    justify-self: center;
+    grid-area: 1 / 1;
+    margin-top: 50px;
+  }

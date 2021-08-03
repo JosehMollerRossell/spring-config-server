@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="942px" height="2px" viewBox="0 0 942 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>LINEA SEPARADOR@2x</title>
+    <g id="WEB-RED-SALUD-GLOBAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="inicio-2-propuesta" transform="translate(-249.000000, -6668.000000)">
+            <g id="LINEA-SEPARADOR" transform="translate(250.000000, 6668.000000)">
+                <line x1="0.481557377" y1="1.5" x2="939.518443" y2="1.5" id="Line-10" stroke="#489AEB"></line>
+                <line x1="0.481557377" y1="0.5" x2="939.518443" y2="0.5" id="Line-10-Copy" stroke="#0C4C8C"></line>
+            </g>
+        </g>
+    </g>
+</svg>
