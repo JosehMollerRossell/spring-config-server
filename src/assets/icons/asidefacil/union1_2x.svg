@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="39px" viewBox="0 0 48 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>union 1@2x</title>
+    <g id="WEB-RED-SALUD-GLOBAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="inicio-2-propuesta" transform="translate(-369.000000, -1108.000000)">
+            <g id="union-1" transform="translate(369.000000, 1108.000000)">
+                <path d="M4,4 C5.1015842,12.0861739 9.56405218,19.1822762 17.3874039,25.2883068 C25.2107557,31.3943375 34.4149544,34.9649019 45,36" id="Path-15" stroke="#1AA484" stroke-width="2" stroke-dasharray="2"></path>
+                <circle id="Oval" fill="#1AA484" cx="3" cy="3" r="3"></circle>
+                <circle id="Oval-Copy-6" fill="#1AA484" cx="45" cy="36" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

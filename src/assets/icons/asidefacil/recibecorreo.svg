@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>recibe correo@2x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="100" height="100" rx="21"></rect>
+    </defs>
+    <g id="WEB-RED-SALUD-GLOBAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="inicio-2-propuesta" transform="translate(-749.000000, -1119.000000)">
+            <g id="recibe-correo" transform="translate(749.000000, 1119.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D5EDFF" xlink:href="#path-1"></use>
+                <g id="correo" mask="url(#mask-2)">
+                    <g transform="translate(19.000000, 19.000000)">
+                        <path d="M0,59.7111351 C0,60.9781853 1.03346457,62 2.31496063,62 L60.6850394,62 C61.9665354,62 63,60.9781853 63,59.7111351 L63,24.1111111 L0,24.1111111 L0,59.7111351 Z" id="Path" fill="#1859A0" fill-rule="nonzero"></path>
+                        <polygon id="Path" fill="#42AFE5" fill-rule="nonzero" points="0 24.1111111 31.4793443 0 63 24.1111111"></polygon>
+                        <polygon id="Path" fill="#142D5E" fill-rule="nonzero" points="63 24.1111111 0 24.1111111 22.3908197 41.3333333 40.5678689 41.3333333"></polygon>
+                        <path d="M2.31496063,62 L60.6850394,62 C61.9665354,62 63,60.9471614 63,59.6416416 L40.5944882,40.1851852 L22.4055118,40.1851852 L0,59.6416416 C0,60.9471614 1.03346457,62 2.31496063,62 Z" id="Path" fill="#213B78" fill-rule="nonzero"></path>
+                        <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(6.872727, 6.888889)">
+                            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="42.8874693 5.93315146e-15 0 5.93315146e-15 0 22.1279461 16.0982801 34.4444444 34.2604423 34.4444444 50.4 22.1279461 50.4 7.55690236 42.8874693 7.55690236"></polygon>
+                            <polygon id="Path" fill="#D8D9DA" fill-rule="nonzero" points="42.8874693 7.55690236 50.4 7.55690236 42.8874693 5.93315146e-15"></polygon>
+                            <rect id="Rectangle" fill="#1AA484" fill-rule="nonzero" x="17.4477927" y="15.6444444" width="16.4285012" height="4" rx="2"></rect>
+                            <path d="M19.1700855,15.4690065 L31.6466035,15.4690065 C32.7485816,15.4690065 33.6419114,16.3623363 33.6419114,17.4643144 C33.6419114,18.5662926 32.7485816,19.4596224 31.6466035,19.4596224 L19.1700855,19.4596224 C18.0681074,19.4596224 17.1747776,18.5662926 17.1747776,17.4643144 C17.1747776,16.3623363 18.0681074,15.4690065 19.1700855,15.4690065 Z" id="Rectangle-Copy-36" fill="#1AA484" fill-rule="nonzero" transform="translate(25.408345, 17.464314) rotate(-90.000000) translate(-25.408345, -17.464314) "></path>
+                            <polygon id="Path" fill="#ECECED" fill-rule="nonzero" opacity="0.317318871" points="42.8874693 5.93315146e-15 25.6746929 5.93315146e-15 25.6746929 34.4444444 34.2604423 34.4444444 50.4 22.1279461 50.4 7.55690236 42.8874693 7.55690236"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

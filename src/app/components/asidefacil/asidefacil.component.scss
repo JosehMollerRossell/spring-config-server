@@ -1,13 +1,14 @@
 .background{
-  width: 70%;
-position: relative;
- // height: 300px;
+  width: 100%;
+//position: relative;
+
+  height: 50vh;
   margin: auto;
-    background: url(/assets/icons/asidefacil/fondoasidefacil2x.svg);
+    background: url(/assets/icons/asidefacil/fondo.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-origin: content-box;
-    box-sizing: border-box;
+    //background-size: contain;
+    //background-origin: content-box;
+  //  box-sizing: border-box;
   }
 //card
 button{
@@ -17,7 +18,10 @@ button{
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.centrado{
+  width: 70%;
+  margin: auto;
+}
 .buttonText{
   font-size: 17px;
   color:  #01387B;
@@ -26,44 +30,6 @@ button{
   font-weight: bold;
 }
 
-//hamburguer
-h1 {
-  color: #DB5B33;
-  font-weight: 300;
-  text-align: center;
-}
-
-nav-icon {
-  margin: 0 auto;
-}
-
-//imagen 
-.eye{
-  //position:absolute;
- // height:auto;
-  width:100%;
-  top: 0px;
- // bottom: 40;
- //left : 40px;
-  z-index: 2;
-}
-
-.heaven
-{
-  
-  height:auto;
-  width:30%;
-  //z-index: -1;
-}
-
-.barra{
-  width: 7px;
-  height: 53px;
-  background-color: #008467;
-  border-radius: 3.5px;
- // position: fixed;
-  
-}
 
 .subHeader{
   font-size: 20px;
@@ -74,22 +40,57 @@ nav-icon {
 }
 
 .subHeader2{
-  font-size: 35px;
-  line-height: 53px;
-  letter-spacing: 0.107143px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
   color: #008467;
-  width: 343px;
-  font-style: italic;
+  width: 250px;
+  font-style: normal;
+  font-weight: bold;
 }
 .subHeader3{
-  font-size: 35px;
-  line-height: 22px;
-  letter-spacing: 0.107143px;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.375px;
   color: #01387B;
-  width: 319px;
-  font-style: italic;
+  width: 165px;
+  font-style: normal;
+}
+.field {
+  display: table;  
 }
 
+.label,.value{
+  display: table-cell;
+}
+
+.label {  
+  min-width: 80px;
+}
+
+.value {  
+  width: 25%;  
+  padding-bottom: 20px;
+  vertical-align: bottom;
+}
+.subHeader4{
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.375px;
+  color: #01387B;
+  width: auto;
+  font-style: normal;
+}
+
+.subHeader5{
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.375px;
+  color: #ffffff;
+  width: auto;
+  font-style: normal;
+  //padding: 20px;
+}
 .fontButtton{
   letter-spacing: 1.8px;
   font-size: 15px;
@@ -101,26 +102,48 @@ nav-icon {
     letter-spacing: 0.32px; 
   }
 
-  .grid-container{
-    display: grid;
-    height: 500px;
-    width: 500px;
-    margin: auto;
+   .backgroundgota{        
+       background-image: url(/assets/icons/asidefacil/splash2x.svg);       
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-origin: content-box;
+     box-sizing: border-box;
+       }
+
+ .backgroundFacil{
+   width: 200px; 
+     background: url(/assets/icons/asidefacil/facil.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-origin: content-box;
+     box-sizing: border-box;
+   }
+
+   .textPasos{     
+     color: #01387B;
+     font-weight: bold;
+     //width: 221px;
+     line-height: 17px;
+     text-align: center;
+     //font-size: 1;
+     letter-spacing: 0.0257143px;
+   }
+
+   .circulo{
+     width: 32px;
+     height: 32px;
+     background-color: #008467;
+     border-radius: 50%;
+     margin: auto;
+   }
+
+   .padre {
+    //background: yellow;
+    margin: 0;
+   // height: 150px;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  img{
-    width: 100%;
-  }
-  
-  img:nth-child(1){
-    grid-area: 1 / 1;
-  }
-  
-  img:nth-child(2){
-    width: 150px;
-    height:150px;
-    align-self: center;
-    justify-self: center;
-    grid-area: 1 / 1;
-    margin-top: 50px;
-  }

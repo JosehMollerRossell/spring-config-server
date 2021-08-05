@@ -13,6 +13,30 @@
    top: 0;
     position: relative;
   }
+
+
+  .backgroundPie{
+     width: 100%;
+    height: auto;
+    background-image: url(/assets/icons/footer/curvaFooter.svg);
+    background-size: 100% 100%;
+    }
+
+    .backgroundPieMayor{
+ //     width: 100%;
+ height:auto;
+// width: 100%;
+     background-image: url(/assets/icons/footer/Rectangle.svg);
+     background-size: 100% 100%;
+   //  background-repeat: no-repeat;
+    // background-size: contain;
+   //  background-origin: content-box;
+   // box-sizing: border-box;
+     //bottom:0; 
+    // left: 0;
+   // top: 120;
+    // position: relative;    
+     }
 //fin footer
   .footerMaster {
     //position: fixed;
@@ -25,8 +49,8 @@
     width: 70%;    
     color: white;
     text-align: center;    
-    overflow: hidden;
-    background-color: blueviolet;
+    //overflow: hidden;
+    
   }
 
   .centrado{
@@ -36,7 +60,7 @@
     //top: 50%;
     //left: 50%;
     //transform: translate(-50%, -50%);
-    background-color: aquamarine;
+
 }
 
 .title{  

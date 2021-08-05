@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavIconComponent } from './components/nav-icon/nav-icon.component';
 import { AsidefacilComponent } from './components/asidefacil/asidefacil.component';
+import { CicloComponent } from './components/ciclo/ciclo.component';
 //import { NavIconComponent } from './nav-icon.component';
 
 
@@ -17,7 +18,8 @@ import { AsidefacilComponent } from './components/asidefacil/asidefacil.componen
     FooterComponent,
     HeaderComponent,
     NavIconComponent,
-    AsidefacilComponent
+    AsidefacilComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,
